@@ -12,5 +12,14 @@ public class HelloWorld {
         sb1.append("World!");
 
         System.out.println(sb1);
+
+        // now replace world with java
+        System.out.println("After replacing world with Java: ");
+        sb1.replace(6,11,"Java");
+        System.out.println(sb1);
+
+        // Now we should delete Java using the delete() method
+
+
     }
 }

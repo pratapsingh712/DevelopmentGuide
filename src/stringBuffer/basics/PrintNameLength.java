@@ -14,6 +14,11 @@ public class PrintNameLength {
         name.append(" ");
         name.append("Pratap");
 
+        System.out.println("------------------------------------->");
         System.out.println(name);
+        System.out.println("------------------------------------->");
+        System.out.println("Printing it's length and capacity:");
+        System.out.println("length :"+name.length());
+        System.out.println("Capacity :"+name.capacity());
     }
 }

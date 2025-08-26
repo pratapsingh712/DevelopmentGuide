@@ -15,6 +15,11 @@ public class ReverseString {
         System.out.println(sb1);
 
         System.out.println("---------------------------------------->");
+        reverse(sb1);
+
+    }
+
+    public static void reverse(StringBuffer sb1){
         String reverse = "";
 
         for(int i = sb1.length()-1; i >= 0; i--){
@@ -22,6 +27,5 @@ public class ReverseString {
         }
 
         System.out.println(reverse);
-
     }
 }
